@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whiteBackground"
+    tools:context="com.example.user.help.HelpRequestDetailsActivity">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/assistant"
+        android:text="Helpee:"
+        android:textColor="@color/colorPrimary"
+        android:textSize="7pt"
+        android:textStyle="bold"
+        android:background="@color/whiteBackground"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/assistant"
+        android:text="Location:"
+        android:textColor="@color/colorPrimary"
+        android:textSize="7pt"
+        android:textStyle="bold"
+        android:background="@color/whiteBackground"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/assistant"
+        android:text="Date and Time:"
+        android:textColor="@color/colorPrimary"
+        android:textSize="7pt"
+        android:textStyle="bold"
+        android:background="@color/whiteBackground"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="44dp"
+        android:fontFamily="@font/assistant"
+        android:text="Description:"
+        android:textColor="@color/colorPrimary"
+        android:textSize="7pt"
+        android:textStyle="bold"
+        android:background="@color/whiteBackground"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/assistant"
+        android:text="Contact Number:"
+        android:textColor="@color/colorPrimary"
+        android:textSize="7pt"
+        android:textStyle="bold"
+        android:background="@color/whiteBackground"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="80dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/assistant"
+        android:text="Dave Franco"
+        android:textAlignment="textEnd"
+        android:textColor="#000000"
+        android:textSize="7pt"
+        android:background="@color/whiteBackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/location_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="80dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/assistant"
+        android:text="Taguig, BGC"
+        android:textAlignment="textEnd"
+        android:textColor="#000000"
+        android:textSize="7pt"
+        android:background="@color/whiteBackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name_text" />
+
+    <TextView
+        android:id="@+id/date_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="80dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/assistant"
+        android:text="March 02, 2018"
+        android:textAlignment="textEnd"
+        android:textColor="#000000"
+        android:textSize="7pt"
+        android:background="@color/whiteBackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/location_text" />
+
+    <TextView
+        android:id="@+id/time_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="80dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/assistant"
+        android:text="04:00PM - 06:00PM"
+        android:textAlignment="textEnd"
+        android:textColor="#000000"
+        android:textSize="7pt"
+        android:background="@color/whiteBackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/date_text" />
+
+    <TextView
+        android:id="@+id/description_text"
+        android:layout_width="136dp"
+        android:layout_height="73dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/assistant"
+        android:text="I need smeone to take care of my dog, Harley"
+        android:textAlignment="textEnd"
+        android:textColor="#000000"
+        android:textSize="7pt"
+        android:background="@color/whiteBackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/time_text" />
+
+    <TextView
+        android:id="@+id/contact_text"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/assistant"
+        android:text="09987654321"
+        android:textAlignment="textEnd"
+        android:textColor="#000000"
+        android:textSize="7pt"
+        android:background="@color/whiteBackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/description_text" />
+
+    <Button
+        android:id="@+id/accept_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="388dp"
+        android:text="Accept"
+        android:textColor="@android:color/background_light"
+        android:textSize="7pt"
+        android:textStyle="bold"
+        android:fontFamily="@font/assistant"
+        android:background="@color/yellowBackground"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/decline_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="388dp"
+        android:text="Decline"
+        android:fontFamily="@font/assistant"
+        android:textSize="7pt"
+        android:background="@color/grayBackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.023"
+        app:layout_constraintStart_toEndOf="@+id/accept_button"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>

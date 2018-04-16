@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whiteBackground"
+    tools:context="com.example.user.help.ProjectDetailsHelperActivity">
+
+    <TextView
+        android:id="@+id/helpee_help_request"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="48dp"
+        android:fontFamily="@font/assistant"
+        android:text="Help Request:"
+        android:textColor="#ffd27f"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:background="@color/whiteBackground"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:background="@color/whiteBackground"
+        android:id="@+id/helpee_help_request_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="48dp"
+        android:fontFamily="@font/assistant"
+        android:gravity="left"
+        android:maxLines="2"
+        android:minLines="1"
+        android:text="Lawn Mowing"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        app:layout_constraintStart_toEndOf="@+id/helpee_help_request"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:background="@color/whiteBackground"
+        android:id="@+id/helper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/assistant"
+        android:text="Helpee:"
+        android:textColor="#ffd27f"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/helpee_help_request_detail" />
+
+    <TextView
+        android:background="@color/whiteBackground"
+        android:id="@+id/helper_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/assistant"
+        android:gravity="left"
+        android:maxLines="1"
+        android:minLines="1"
+        android:text="Miley Cyrus"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        app:layout_constraintStart_toEndOf="@+id/helper"
+        app:layout_constraintTop_toBottomOf="@+id/helpee_help_request_detail" />
+
+    <TextView
+        android:background="@color/whiteBackground"
+        android:id="@+id/place"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/assistant"
+        android:text="Place:"
+        android:textColor="#ffd27f"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/helper_detail" />
+
+    <TextView
+        android:background="@color/whiteBackground"
+        android:id="@+id/place_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/assistant"
+        android:gravity="left"
+        android:maxLines="1"
+        android:minLines="1"
+        android:text="Bahay ni Kuya"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        app:layout_constraintStart_toEndOf="@+id/place"
+        app:layout_constraintTop_toBottomOf="@+id/helper_detail" />
+
+    <TextView
+        android:background="@color/whiteBackground"
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/assistant"
+        android:text="Date:"
+        android:textColor="#ffd27f"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/place_detail" />
+
+    <TextView
+        android:background="@color/whiteBackground"
+        android:id="@+id/date_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/assistant"
+        android:gravity="left"
+        android:maxLines="1"
+        android:minLines="1"
+        android:text="10/27/2018"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        app:layout_constraintStart_toEndOf="@+id/date"
+        app:layout_constraintTop_toBottomOf="@+id/place_detail" />
+
+    <TextView
+        android:background="@color/whiteBackground"
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/assistant"
+        android:text="Time:"
+        android:textColor="#ffd27f"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/date_detail" />
+
+    <TextView
+        android:background="@color/whiteBackground"
+        android:id="@+id/time_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/assistant"
+        android:gravity="left"
+        android:maxLines="1"
+        android:minLines="1"
+        android:text="1:00 pm"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        app:layout_constraintStart_toEndOf="@+id/time"
+        app:layout_constraintTop_toBottomOf="@+id/date_detail" />
+
+    <TextView
+        android:background="@color/whiteBackground"
+        android:id="@+id/contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+
+        android:fontFamily="@font/assistant"
+        android:text="Contact Number:"
+        android:textColor="#ffd27f"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/time_detail" />
+
+    <TextView
+        android:background="@color/whiteBackground"
+        android:id="@+id/contact_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/assistant"
+        android:gravity="left"
+        android:maxLines="1"
+        android:minLines="1"
+        android:text="09213456789"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        app:layout_constraintStart_toEndOf="@+id/contact"
+        app:layout_constraintTop_toBottomOf="@+id/time_detail" />
+
+</android.support.constraint.ConstraintLayout>

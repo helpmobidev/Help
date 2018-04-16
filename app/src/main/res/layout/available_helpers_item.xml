@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/whiteBackground">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/whiteBackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/sub_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="18dp"
+            android:background="@color/whiteBackground"
+            android:fontFamily="@font/assistant"
+            android:text="Helper Name"
+            android:textColor="#000000"
+            android:textSize="10pt"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/help_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/sub_category"
+            android:layout_below="@+id/sub_category"
+            android:layout_marginTop="6dp"
+            android:background="@color/whiteBackground"
+            android:fontFamily="@font/assistant"
+            android:text="Location"
+            android:textSize="8pt" />
+
+        <TextView
+            android:id="@+id/category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/help_details"
+            android:layout_below="@+id/help_details"
+            android:layout_marginTop="6dp"
+            android:background="@color/whiteBackground"
+            android:fontFamily="@font/assistant"
+            android:text="Category"
+            android:textSize="8pt" />
+
+        <Button
+            android:id="@+id/ask_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/sub_category"
+            android:layout_marginEnd="46dp"
+            android:background="@color/yellowBackground"
+            android:fontFamily="@font/assistant"
+            android:text="ask for help"
+            android:textColor="#FFFFFF"
+            android:textSize="6pt"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

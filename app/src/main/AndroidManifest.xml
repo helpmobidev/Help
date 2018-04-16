@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.help">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_round"
+        android:label="Help!"
+        android:supportsRtl="true"
+        android:theme="@style/AppBaseTheme">
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:label=" "
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".AvailableHelpersActivity"
+            android:label="Available Helpers"
+            android:theme="@style/AppBaseTheme2" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".GetHelpDetailsActivity"
+            android:label="Help Request" />
+        <activity
+            android:name=".HelpRequestDetailsActivity"
+            android:label="Help Request" />
+        <activity
+            android:name=".UserProfileActivity"
+            android:label="Profile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HelperHelpDetailsActivity"
+            android:label="Approved Help Details" />
+        <activity
+            android:name=".HelpeeHelpDetailsActivity"
+            android:label="Approved Help Details"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainSettingsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UserSettingsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ProjectsActivity"
+            android:label="Projects" />
+        <activity
+            android:name=".PendingRequestsActivity"
+            android:label="Pending Requests" />
+        <activity
+            android:name=".ProjectDetailsHelpeeActivity"
+            android:label="Project Details" />
+        <activity
+            android:name=".ProjectDetailsHelperActivity"
+            android:label="Project Details" />
+        <activity
+            android:name=".HelperSettingsActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".DeclinedRequestsActivity" />
+        <activity android:name=".TutorialActivity"></activity>
+    </application>
+
+</manifest>

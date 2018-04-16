@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whiteBackground"
+    tools:context="com.example.user.help.HelperSettingsActivity">
+
+    <TextView
+        android:id="@+id/helper_cat_text_view"
+        android:layout_width="297dp"
+        android:layout_height="63dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/whiteBackground"
+        android:fontFamily="@font/assistant"
+        android:text="Choose at least one category that you think you can help people at:"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/home_improvement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@color/whiteBackground"
+        android:fontFamily="@font/assistant"
+        android:text="Home Improvement"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/helper_cat_text_view" />
+
+    <CheckBox
+        android:id="@+id/house_cleaning_checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/assistant"
+        android:text="House Cleaning "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/home_improvement" />
+
+    <CheckBox
+        android:id="@+id/lawn_mowing_checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/assistant"
+        android:text="Lawn Mowing "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/house_cleaning_checkBox" />
+
+    <CheckBox
+        android:id="@+id/house_repairs_checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/assistant"
+        android:text="House Repairs "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lawn_mowing_checkBox" />
+
+
+    <TextView
+        android:id="@+id/pets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/whiteBackground"
+        android:fontFamily="@font/assistant"
+        android:text="Pets"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toEndOf="@+id/home_improvement"
+        app:layout_constraintTop_toBottomOf="@+id/helper_cat_text_view" />
+
+    <CheckBox
+        android:id="@+id/pet_training_checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/assistant"
+        android:text="Pet Training "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/house_cleaning_checkBox"
+        app:layout_constraintTop_toBottomOf="@+id/pets" />
+
+    <CheckBox
+        android:id="@+id/pet_sitting_checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:fontFamily="@font/assistant"
+        android:text="Pet Sitting "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/lawn_mowing_checkBox"
+        app:layout_constraintTop_toBottomOf="@+id/pet_training_checkBox" />
+
+    <TextView
+        android:id="@+id/personal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@color/whiteBackground"
+        android:fontFamily="@font/assistant"
+        android:text="Personal"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/house_repairs_checkBox" />
+
+    <CheckBox
+        android:id="@+id/trainer_checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:fontFamily="@font/assistant"
+        android:text="Trainer "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/assistant_checkBox" />
+
+    <CheckBox
+        android:id="@+id/life_coach_checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/assistant"
+        android:text="Life Coach "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/personal" />
+
+    <CheckBox
+        android:id="@+id/assistant_checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/assistant"
+        android:text="Assistant "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/life_coach_checkBox" />
+
+    <TextView
+        android:id="@+id/lessons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/whiteBackground"
+        android:fontFamily="@font/assistant"
+        android:text="Lessons"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/trainer_checkBox"
+        app:layout_constraintTop_toBottomOf="@+id/makeup_checkBox" />
+
+    <CheckBox
+        android:id="@+id/instruments_checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="175dp"
+        android:fontFamily="@font/assistant"
+        android:text="Instruments "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/academics_checkBox" />
+
+    <CheckBox
+        android:id="@+id/crafts_checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="95dp"
+        android:fontFamily="@font/assistant"
+        android:text="Arts / Crafts "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/trainer_checkBox"
+        app:layout_constraintTop_toBottomOf="@+id/lessons" />
+
+    <CheckBox
+        android:id="@+id/academics_checkBox"
+        android:layout_width="wrap_content"
+        android:layout_marginStart="167dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/assistant"
+        android:text="Academics "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/crafts_checkBox" />
+
+    <TextView
+        android:id="@+id/events"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@color/whiteBackground"
+        android:fontFamily="@font/assistant"
+        android:text="Events"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/house_repairs_checkBox"
+        app:layout_constraintTop_toBottomOf="@+id/pet_sitting_checkBox" />
+
+    <CheckBox
+        android:id="@+id/coordinator_checkBox"
+        android:layout_width="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/assistant"
+        android:text="Coordinator  "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/life_coach_checkBox"
+        app:layout_constraintTop_toBottomOf="@+id/photographer_checkBox" />
+
+    <CheckBox
+        android:id="@+id/photographer_checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/assistant"
+        android:text="Photographer "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/personal"
+        app:layout_constraintTop_toBottomOf="@+id/events" />
+
+    <CheckBox
+        android:id="@+id/makeup_checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="95dp"
+        android:fontFamily="@font/assistant"
+        android:text="Makeup Artist "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/assistant_checkBox"
+        app:layout_constraintTop_toBottomOf="@+id/coordinator_checkBox" />
+
+    <Button
+        android:id="@+id/save_helper_settings_button"
+        android:layout_width="109dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@color/colorAccent"
+        android:fontFamily="@font/assistant"
+        android:text="SAVE"
+        android:textColor="?attr/actionMenuTextColor"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

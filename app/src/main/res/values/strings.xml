@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Help</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <array name="metro_manila_cities">
+        <item>Caloocan</item>
+        <item>Las Pinas</item>
+        <item>Makati</item>
+        <item>Malabon</item>
+        <item>Mandaluyong</item>
+        <item>Manila</item>
+        <item>Marikina</item>
+        <item>Muntinlupa</item>
+        <item>Navotas</item>
+        <item>Parañaque</item>
+        <item>Pasay</item>
+        <item>Pasig</item>
+        <item>Quezon City</item>
+        <item>San Juan, Metro Manila</item>
+        <item>Taguig</item>
+        <item>Valenzuela, Metro Manila</item>
+    </array>
+
+</resources>

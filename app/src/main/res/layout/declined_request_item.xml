@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/whiteBackground">
+
+    <RelativeLayout
+        android:layout_width="390dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@color/lightGray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/help_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@color/lightGray"
+            android:fontFamily="@font/assistant"
+            android:text="Help Requested"
+            android:textColor="#000000"
+            android:textSize="10pt"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="95dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <TextView
+            android:id="@+id/help_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/help_category"
+            android:layout_centerHorizontal="true"
+            android:background="@color/lightGray"
+            android:fontFamily="@font/assistant"
+            android:text="Date and Time"
+            android:textSize="8pt" />
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

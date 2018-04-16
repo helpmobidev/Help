@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/user_profile_nav"
+            android:icon="@drawable/user"
+            android:title="User Profile" />
+        <item
+            android:id="@+id/settings_nav"
+            android:icon="@drawable/settings"
+            android:title="Account Settings" />
+        <item
+            android:id="@+id/projects_nav"
+            android:icon="@drawable/projects"
+            android:title="Projects" />
+        <item
+            android:id="@+id/pending_nav"
+            android:icon="@drawable/pending"
+            android:title="Pending Requests" />
+
+        <item
+            android:id="@+id/declined_nav"
+            android:icon="@drawable/decline"
+            android:title="Declined Requests" />
+
+        <item
+            android:id="@+id/tutorial_nav"
+            android:icon="@drawable/tutorial"
+            android:title="Tutorial"/>
+
+        <item
+            android:id="@+id/logout_nav"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+    </group>
+
+</menu>
