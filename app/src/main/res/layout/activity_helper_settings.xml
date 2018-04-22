@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/whiteBackground"
-    tools:context="com.example.user.help.HelperSettingsActivity">
+    tools:context="com.mobidevgurls.user.help.HelperSettingsActivity">
 
     <TextView
         android:id="@+id/helper_cat_text_view"

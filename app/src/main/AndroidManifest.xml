@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.user.help">
+    package="com.mobidevgurls.user.help">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppBaseTheme">
         <activity
-            android:name=".LoginActivity"
+            android:name="com.mobidevgurls.user.help.LoginActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
@@ -21,16 +21,16 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".RegisterActivity"
+            android:name="com.mobidevgurls.user.help.RegisterActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.mobidevgurls.user.help.MainActivity"
             android:label=" "
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".AvailableHelpersActivity"
+            android:name="com.mobidevgurls.user.help.AvailableHelpersActivity"
             android:label="Available Helpers"
             android:theme="@style/AppBaseTheme2" />
 
@@ -39,45 +39,45 @@
             android:resource="@array/preloaded_fonts" />
 
         <activity
-            android:name=".GetHelpDetailsActivity"
+            android:name="com.mobidevgurls.user.help.GetHelpDetailsActivity"
             android:label="Help Request" />
         <activity
-            android:name=".HelpRequestDetailsActivity"
+            android:name="com.mobidevgurls.user.help.HelpRequestDetailsActivity"
             android:label="Help Request" />
         <activity
-            android:name=".UserProfileActivity"
+            android:name="com.mobidevgurls.user.help.UserProfileActivity"
             android:label="Profile"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".HelperHelpDetailsActivity"
+            android:name="com.mobidevgurls.user.help.HelperHelpDetailsActivity"
             android:label="Approved Help Details" />
         <activity
-            android:name=".HelpeeHelpDetailsActivity"
+            android:name="com.mobidevgurls.user.help.HelpeeHelpDetailsActivity"
             android:label="Approved Help Details"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".MainSettingsActivity"
+            android:name="com.mobidevgurls.user.help.MainSettingsActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".UserSettingsActivity"
+            android:name="com.mobidevgurls.user.help.UserSettingsActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ProjectsActivity"
+            android:name="com.mobidevgurls.user.help.ProjectsActivity"
             android:label="Projects" />
         <activity
-            android:name=".PendingRequestsActivity"
+            android:name="com.mobidevgurls.user.help.PendingRequestsActivity"
             android:label="Pending Requests" />
         <activity
-            android:name=".ProjectDetailsHelpeeActivity"
+            android:name="com.mobidevgurls.user.help.ProjectDetailsHelpeeActivity"
             android:label="Project Details" />
         <activity
-            android:name=".ProjectDetailsHelperActivity"
+            android:name="com.mobidevgurls.user.help.ProjectDetailsHelperActivity"
             android:label="Project Details" />
         <activity
-            android:name=".HelperSettingsActivity"
+            android:name="com.mobidevgurls.user.help.HelperSettingsActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".DeclinedRequestsActivity" />
-        <activity android:name=".TutorialActivity"></activity>
+        <activity android:name="com.mobidevgurls.user.help.DeclinedRequestsActivity" />
+        <activity android:name="com.mobidevgurls.user.help.TutorialActivity"></activity>
     </application>
 
 </manifest>

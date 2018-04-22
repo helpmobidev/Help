@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/whiteBackground"
-    tools:context="com.example.user.help.UserSettingsActivity">
+    tools:context="com.mobidevgurls.user.help.UserSettingsActivity">
 
     <RelativeLayout
         android:id="@+id/profilepic_settings"
